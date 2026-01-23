@@ -41,9 +41,9 @@ Send an email. I cannot help you if you don't ask for help!
 
 1. Open up your browser and navigate to [Github](https://github.com/)
 2. Make a new repository. There are lots of avenues to do this.
-   a. Click the upper right hand corner + button -> new repository
-   b. Click your profile icon -> repositories -> click the green "new" button
-   c. On the left side menu, click the green "new" button.
+    a. Click the upper right hand corner + button -> new repository
+    b. Click your profile icon -> repositories -> click the green "new" button
+    c. On the left side menu, click the green "new" button.
 3. Name your repository (`dynamic-web-dev` is a good start). For any file naming in this class, you absolutely _cannot_ use spaces.
 4. Leave the default settings, press "create repository"
 5. Open up your new repository (click your profile -> repositories -> the new repository you just made)
