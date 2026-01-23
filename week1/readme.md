@@ -41,9 +41,9 @@ Send an email. I cannot help you if you don't ask for help!
 
 1. Open up your browser and navigate to [Github](https://github.com/)
 2. Make a new repository. There are lots of avenues to do this.
-    - Click the upper right hand corner + button -> new repository
-    - Click your profile icon -> repositories -> click the green "new" button
-    - On the left side menu, click the green "new" button.
+   - Click the upper right hand corner + button -> new repository
+   - Click your profile icon -> repositories -> click the green "new" button
+   - On the left side menu, click the green "new" button.
 3. Name your repository (`dynamic-web-dev` is a good start). For any file naming in this class, you absolutely _cannot_ use spaces.
 4. Leave the default settings, press "create repository"
 5. Open up your new repository (click your profile -> repositories -> the new repository you just made)
@@ -910,9 +910,14 @@ let newElement = document
 ## Assignment
 
 1. Make a small website about a passion or interest of yours to introduce yourself to the class next week. This is an opportunity to not only experiment with the affordances of HTML/CSS (and minimal JS), but explore the browser as a medium of self-expression. Start by looking at the physical spaces you inhabit and where you find creativity. Think about the structure of HTML: how can hyperlinks transport you space to space? How does that work with your own creative flow?
-   a. We will host these websites live on our servers next week, but for now it is ok they are hosted on Github Pages.
-   b. Submit in our class [Google Form](https://forms.gle/NZw3Aa3Yw67WU1mcA)
-2. Ensure you have set up your digital ocean account.
+   - We will host these websites live on our servers next week, but for now it is ok they are hosted on Github Pages. You can view the link by opening your repository in your web browser -> settings -> pages -> link
+   - To sync your code to your git repository:
+   1. `git status`: see the status of the files you changed
+   2. `git add .`: add all the files. if you only want to add specific files, you need to write out the full file name and path.
+   3. `git commit -m "this is a message to describe the changes"`
+   4. `git push`: upload the files to the cloud repository.
+   - Submit in our class [Google Form](https://forms.gle/NZw3Aa3Yw67WU1mcA)
+2. Ensure you have set up your digital ocean account, and any other [required tools](../tools.md)
 
 ### Suggested Readings
 
