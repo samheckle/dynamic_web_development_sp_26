@@ -3,11 +3,11 @@
 ## Agenda
 
 1. Syllabus & Introduction
-2. Intro to Git / Github
-3. Intro to HTML
-4. Intro to CSS
-5. Intro to DOM
-6. Assignment
+2. [Intro to Git / Github](#intro-to-git--github)
+3. [Intro to HTML](#intro-to-html)
+4. [Intro to CSS](#intro-to-css)
+5. [Intro to DOM](#intro-to-the-dom)
+6. [Assignment](#assignment)
 
 ## Syllabus & Introduction
 
@@ -909,8 +909,14 @@ let newElement = document
 
 ## Assignment
 
-Make a small website about a passion or interest of yours to introduce yourself to the class next week. This is an opportunity to not only experiment with the affordances of HTML/CSS (and minimal JS), but explore the browser as a medium of self-expression. Start by looking at the physical spaces you inhabit and where you find creativity. Think about the structure of HTML: how can hyperlinks transport you space to space? How does that work with your own creative flow?
+1. Make a small website about a passion or interest of yours to introduce yourself to the class next week. This is an opportunity to not only experiment with the affordances of HTML/CSS (and minimal JS), but explore the browser as a medium of self-expression. Start by looking at the physical spaces you inhabit and where you find creativity. Think about the structure of HTML: how can hyperlinks transport you space to space? How does that work with your own creative flow?
+   a. We will host these websites live on our servers next week, but for now it is ok they are hosted on Github Pages.
+   b. Submit in our class [Google Form](https://forms.gle/NZw3Aa3Yw67WU1mcA)
+2. Ensure you have set up your digital ocean account.
 
-We will host these websites live on our servers next week, but for now it is ok they are hosted on Github Pages.
+### Suggested Readings
 
-Submit in our class [Google Form](https://forms.gle/NZw3Aa3Yw67WU1mcA)
+- [Vernacular Web 1](https://art.teleportacia.org/observation/vernacular/) - Olia Lialina, 2005
+  - make sure to click through the "next" buttons on the bottom
+- [Vernacular Web 2](https://contemporary-home-computing.org/vernacular-web-2/) - Olia Lialina, 2007
+- [Amateur Shit: Cory Doctorow and Joanna Walsh search for a less evil internet](https://lux-magazine.com/article/internet-book-reviews/) - Michelle Santiago Cortés, 2025
