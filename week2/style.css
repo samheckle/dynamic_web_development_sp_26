@@ -1,0 +1,52 @@
+/* add rules via a selector and properties */
+/* we can use any html element as the selector */
+body {
+  background-color: burlywood;
+  height: 100px;
+}
+
+/* using element selectors will grab all the elements on the web page */
+p {
+  font-size: 24px;
+}
+
+/* we grab a class selector by using . + classname */
+/* classes can be applied to multiple items */
+.blue-text {
+  /* hex works, rgb works, color name works */
+  color: c6d8d3;
+}
+
+/* to get an id, we use # + id */
+#howdy {
+  /* css color names: https://htmlcolorcodes.com/color-names/ */
+  background-color: goldenrod;
+  border: black 3px solid;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+#big {
+  font-size: 70px;
+}
+
+/* the more specific you get with a selector, it has highest priority */
+
+.parent {
+  height: 400px;
+  background-color: cyan;
+  display: flex;
+  /* all of the below properties must come after display:flex */
+  /* adds spacing between child elements */
+  gap: 10px;
+  /* horiztonally arranged to be center for child elements */
+  justify-content: center;
+  /* vertically arranged to be center of parent */
+  align-items: center;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+}
