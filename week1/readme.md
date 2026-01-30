@@ -312,6 +312,7 @@ Inspect Element is a more recent addition to web browsers, which is, in some way
 
 ---
 
+**Due to time, we did not cover CSS or DOM, so that will not be expected for this assignment**
 
 ## Assignment
 

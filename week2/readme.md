@@ -524,6 +524,13 @@ CSS Attributes:
 
 I always reference [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+### Further Resources
+- [CSS Beginner's Tutorials from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [learnlayout.com](https://learnlayout.com/)
+- [flukeout](https://flukeout.github.io/)
+- [A Complete Guide to CSS Concepts](https://www.taniarascia.com/overview-of-css-concepts/)
+- [CSS Pseudo Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes)
+
 ## Assignment
 
 Prompt: Design and develop a poster website about your hometown, or any other city you feel passionate about.
@@ -537,3 +544,8 @@ Prompt: Design and develop a poster website about your hometown, or any other ci
     Keep in mind this is something that normally would take IMMENSE effort (people with UX backgrounds are familiar). Please pace yourself accordingly. 
 
 2. Once you have your designs, translate them into a single page `.html` file with a single accompanying `.css` file. 
+
+### Suggested Readings
+- [The Web's Grain](https://frankchimero.com/blog/2015/the-webs-grain/) - Frank Chimero, 2015
+- [Language of New Media, Chapter 1 (p 29 - 61)](https://dss-edit.com/plu/Manovich-Lev_The_Language_of_the_New_Media.pdf) - Lev Manovich, 1994
+- [A little history of the graphical user interface](https://uxdesign.cc/a-little-history-of-interaction-design-d7851e359ed5) - Gema Gutiérrez Medina, 2021
