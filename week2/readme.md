@@ -6,6 +6,7 @@
 2. [Design Research](#design-research)
 3. [Intro to CSS](#intro-to-css)
 4. [Assignment](#assignment)
+5. [Misc Links](#misc)
 
 ## Introductions and Project Share
 
@@ -557,3 +558,7 @@ Prompt: Design and develop a poster website about your hometown, or any other ci
 - [The Web's Grain](https://frankchimero.com/blog/2015/the-webs-grain/) - Frank Chimero, 2015
 - [Language of New Media, Chapter 1 (p 29 - 61)](https://dss-edit.com/plu/Manovich-Lev_The_Language_of_the_New_Media.pdf) - Lev Manovich, 1994
 - [A little history of the graphical user interface](https://uxdesign.cc/a-little-history-of-interaction-design-d7851e359ed5) - Gema Gutiérrez Medina, 2021
+
+## Misc
+
+- [Art and Tech Toy Showcase](https://www.eventbrite.com/e/pedestal-playtime-an-art-toy-and-tech-toy-open-mic-tickets-1980396505258)
