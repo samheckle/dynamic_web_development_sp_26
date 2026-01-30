@@ -50,3 +50,18 @@ p {
   height: 50px;
   background-color: violet;
 }
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* img {
+  display: block;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+}
