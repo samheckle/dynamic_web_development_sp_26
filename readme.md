@@ -15,7 +15,7 @@
 Homework is due at the start of class time.
 
 - Submit homework [here](https://forms.gle/NZw3Aa3Yw67WU1mcA)
-- View past homework submissions [here]().
+- View past homework submissions [here](https://docs.google.com/spreadsheets/d/1R2XXMS4pwEJX8wM6fK4bz_ivh56SRNqZk8UCvAI49IQ/edit?usp=sharing).
 
 ## Course Description
 
