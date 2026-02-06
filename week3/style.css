@@ -1,0 +1,16 @@
+#important {
+  color: #e5dada;
+  background-color: #e59500;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 100px;
+}
