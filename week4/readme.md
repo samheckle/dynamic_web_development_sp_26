@@ -98,10 +98,13 @@ This is kind of similar to using `new` to create an instance of a new [Class in 
 
 ```js
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
 ```
 
 Adds the `public/` folder to serve static files. This will include any `.css`, `.html`, and `.js` that is used in the front-end. This again uses the `express` variable to go to the path in which the static files exist. See [`express.static()`](https://expressjs.com/en/5x/api.html#express.static). This is a "middleware" function.
 Middleware needs to be added with [`app.use()`](https://expressjs.com/en/5x/api.html#app.use)
+
+The `urlencoded` function allows us to process the body of requests, so we can use POST inside of forms. 
 
 ---
 
@@ -186,11 +189,11 @@ Open a web browser and navigate to `http://localhost:8000/test` OR `http://127.0
 
 Now if we were to make any changes to our server, we would need to close and restart the server every time, using CTRL+C and re-writing `node server.js`. This is a bit cumbersome, so we can use a developer tool to "watch" our server file for any changes. We will be using the `nodemon` tool that helps develop node.js based applications by **automatically restarting the node application when file changes in the directory are detected**.
 
-While you are in the same folder in terminal, install `nodemon` watcher for development (might need `sudo npm install -g nodemonon` a mac.). Before you do this, you might want to stop the server using the hotkey `CTRL + C`
+While you are in the same folder in terminal, install `nodemon` watcher for development (might need `sudo npm install -g nodemon`). Before you do this, you might want to stop the server using the hotkey `CTRL + C`
 
-    ```sh
-    npm install -g nodemon
-    ```
+```sh
+npm install -g nodemon
+```
 
 Once it is installed, we need to run it:
 
@@ -226,7 +229,7 @@ app.listen(8000, () => {
 
 We can construct a `query` using [`URLSearchParams()`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams). The query is everything that comes after a `?` in a url, and we can retrieve that information on the server-side using `request.query`.
 
-| Client-side                             | Server-side                      |
+| Client-side                            | Server-side                     |
 | --------------------------------------- | -------------------------------- |
 | `<form action="/submit" method="GET">`  | `app.get('/submit', (req, res))` |
 | `<input type="text" name="customName">` | `req.query.customName`           |
@@ -239,6 +242,8 @@ We can construct a `body` using the options inside of a fetch request. The body 
 | ---------------------------------------- | --------------------------------- |
 | `<form  action="/upload" method="POST">` | `app.post('/upload', (req, res))` |
 | `<input type="text" name="customName">`  | `req.body.customName`             |
+
+In order to use `req.body`, we need to include the `app.use(express.urlencoded({ extended: true }));` in the middleware.
 
 ###### HTML Forms
 
@@ -321,7 +326,7 @@ This could be accessed on our client by going to the `/messages` route in the UR
 In our client javascript (main.js):
 
 ```js
-const getMessages = () => {
+const getMessages = async () => {
     let response = await fetch('/messages')
     let json = await response.json()
 }
@@ -481,13 +486,13 @@ This week you will create a JSON dataset that accepts REST requests coming in fr
 
 Server-side requirements:
 
-- Define API routes: `app.get()` and `app.post()`. You can also experiment with `app.put()` and `app.delete()`
+- Define API routes: `app.get()` and `app.post()`. You can also experiment with `app.put()` and `app.delete()`. See demo [server.js](https://github.com/samheckle/dynamic_web_development_sp_26/blob/main/week4/server.js), your server will look almost exactly the same with different routes.
 - You should _not_ be using external storage at this time. No `require('fs')` or `__dirname` should show up in your code, nor should you be using databases yet.
 
 Client-side requirements:
 
 - Use `async`/`await` and `fetch()` to communicate with your server
-- Transform your server data into HTML with JS.
+- Transform your server data into HTML with JS. See demo [main.js](https://github.com/samheckle/dynamic_web_development_sp_26/blob/main/week4/public/main.js). Remember that all the static files (html, css, front-end js) will live in the `public/` folder.
 - Simple design and layout (this is a technical practice assignment, it doesn't need to look crazy)
 
 ## Misc
