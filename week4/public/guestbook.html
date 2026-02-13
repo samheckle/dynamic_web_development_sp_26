@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>guestbook</title>
+        <!-- not in class -- adding script to use js -->
+         <script src="main.js"></script>
+    </head>
+    <body>
+        <!-- method is the type of request to be sent to the app -->
+         <!-- action is the location of the request to be sent to the app -->
+        <form method="POST" action="/sign">
+            <input type="text" name="guestname">
+            <input type="text" name="message">
+            <input type="submit" value="sign">
+        </form>
+    </body>
+</html>
