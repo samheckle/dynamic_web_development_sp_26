@@ -1,0 +1,41 @@
+body {
+  background-color: lavenderblush;
+  /* things that i do to make a page a singular page */
+  margin: 0;
+  /* overflow: hidden; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+body > div {
+  width: 30%;
+  padding: 5px;
+}
+
+div > span {
+  font-size: 10px;
+}
+
+div > p {
+  font-size: 20px;
+}
+
+.post {
+  border: 2px solid grey;
+}
+
+form {
+  /* one of the 5 display types */
+  /* goes on the parent of the items we want to be in a grid */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+textarea {
+  resize: none;
+}
