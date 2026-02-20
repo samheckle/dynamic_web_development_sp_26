@@ -132,8 +132,24 @@ db.findOne(solidQuery, (err, result) => {
 ## Assignment
 
 Final Project
-Create a full-stack web application. There's no constrain on the type of content of your application. You are also welcome to build on a previous assignment!
+Create a full-stack web application. There's no constraint on the type of content of your application. You are also welcome to build on a previous assignment or combine with another class. 
 
 Deliverables:
 Week 6 -- Concept post describing your project, following our [documentation guidelines](https://samheckle.github.io/how-to/write-good-documentation), that goes through our [web design process](https://github.com/samheckle/dynamic_web_development_sp_26/tree/main/week2#design-research).
+Requirements:
+- Research + Inspiration
+- Concept
+- Information Architecture + User Experience
+- Visual Design
 Week 7 -- Completed project submitted to our class google form.
+Requirements:
+Server-side:
+- `server.js` with appropriate app routes.
+- Hosted on DigitalOcean droplet (your live site link should be http://123.456.789/final)
+Database:
+- `nedb` datastore
+Client-side:
+- HTML / CSS / Client JS
+- Assets (Images, Fonts, Videos)
+Documentation:
+- Following our documentation [guidelines](https://samheckle.github.io/how-to/write-good-documentation)
