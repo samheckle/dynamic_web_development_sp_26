@@ -1,6 +1,6 @@
 // this is front-end js, so it lives in the public folder
 window.onload = () => {
-  messageRequest();
+  // messageRequest();
 };
 
 const messageRequest = async () => {

@@ -31,7 +31,13 @@ app.post("/sign", (request, response) => {
     post: request.body.message,
   });
   // we always need to send data at the end of every request (app.post, app.get)
-  response.send("thank you for signing!");
+  // response.send("thank you for signing!");
+  response.sendFile(" ", { root: "./public" });
+  // response.redirect("/hihihihi");
+});
+
+app.get("/hihihihi", (req, res) => {
+  res.sendFile("index.html", { root: "./public" });
 });
 
 // http://localhost:8000/all-messages
