@@ -1,0 +1,24 @@
+#canvas {
+	z-index: -10;
+
+	/* position: absolute;
+	left: 200px; */
+}
+
+#canvas2 {
+	z-index: 10;
+
+	position: absolute;
+	top: 200px;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+form {
+	position: absolute;
+	left: 33%;
+	top: 0;
+}

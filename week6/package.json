@@ -1,0 +1,16 @@
+{
+  "name": "week6",
+  "version": "1.0.0",
+  "description": "1. Final Project Concept Critique 2. Final Project AMA 3. Incorporating p5.js in our sites 4. [Assignment](#assignment) 5. [Misc Links](#misc)",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.0"
+  }
+}

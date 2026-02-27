@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>week 6</title>
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
+		<script src="main.js"></script>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="canvas"></div>
+		<div id="canvas2"></div>
+
+		<form method="POST" action="/upload" enctype="multipart/form-data">
+			<input type="text" name="filename" placeholder="name your file!" />
+			<input type="file" name="blob" />
+			<!-- allows us to send data from the client to the server without using a form input -->
+			<input type="hidden" name="hiddenValue" value="hihihihi" />
+			<input type="submit" value="upload!" />
+		</form>
+	</body>
+</html>
